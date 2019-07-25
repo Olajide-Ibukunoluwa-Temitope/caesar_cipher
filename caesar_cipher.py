@@ -26,8 +26,6 @@ def encrypt():
     try:
         for y in range(len(alphabet)):
             shifted_alphabet.append(new_alphabet[y])
-    
-        # shifted_alphabet = new_alphabet_array
         
         for x in range(length):
             if prompt[x]==" ":
@@ -40,6 +38,5 @@ def encrypt():
         print(encrypted)
     except:
         print("invalid input, please type in a word")
-
 
 encrypt()
